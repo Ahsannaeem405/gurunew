@@ -1,0 +1,37 @@
+import React from "react";
+import "./mainmenu.css";
+import { Navbar, Container, Nav,  } from "react-bootstrap";
+import Logo from "../../img/mainlogo.jpg"
+
+const MainMenu = () => {
+  return (
+    <>
+      <div className="mainmenu">
+        <Navbar expand="lg" className="py-1 px-1 px-md-4">
+          <Container fluid>
+            <Navbar.Brand href="#home">
+                <img src={Logo} alt="main-logo"/>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mx-auto">
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#link">Our Psychics</Nav.Link>
+                <Nav.Link href="#home">Blogs</Nav.Link>
+                <Nav.Link href="#link">About us</Nav.Link>
+                <Nav.Link href="#home">How it works</Nav.Link>
+                <Nav.Link href="#link">Contact us</Nav.Link>
+              </Nav>
+              <Nav className="ml-auto nav-logins">
+                <Nav.Link href="#home " className="mx-1 rejister-link my-1 my-lg-0">Register </Nav.Link>
+                <Nav.Link href="#link " className="mx-1 login-link my-1  my-lg-0">Login</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </div>
+    </>
+  );
+};
+
+export default MainMenu;
