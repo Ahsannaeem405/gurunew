@@ -162,6 +162,7 @@
 .guru-card-detials h3{
     font-size: 17px;
     font-weight: 700;
+    font-family: 'Trocchi', serif;
 }
 @media screen and (max-width:768px){
     .guru-card-detials h3{
@@ -179,6 +180,7 @@
 }
 .guru-card-detials p{
     font-size: 12px;
+    font-family: 'Trocchi', serif;
 }
 /* our experts */
 .our-experts{
@@ -191,6 +193,7 @@ background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1)
     color: black;
 }
 .our-experts p{
+    font-family: 'Trocchi', serif;
     font-size: 18px;
 }
 @media screen and (max-width:768px){

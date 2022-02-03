@@ -41,6 +41,7 @@ box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
     font-size: 18px;
     margin: 0px;
     color: grey;
+    font-family: 'Abril Fatface', cursive;
 }
 .featureCard-detail p{
     font-size: 14px;
@@ -50,18 +51,22 @@ box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
     color: green;
     font-size: 14px;
     font-weight: 600;
+    font-family: 'Trocchi', serif;
 }
 .featureCard-detail p span{
     color: yellow;
 }
 .featureCard-detail h5{
-    color: green;
+    color: #33098b;
+    font-family: 'Abril Fatface', cursive;
 }
 .featureCard-detail ul{
     list-style-type: none;
     padding: 0px;
     font-size: 14px;
     color: #504040;
+    font-family: 'Arimo', sans-serif;
+
 }
 .featureCard-detail ul li:nth-child(2n+1){
     float: right;
