@@ -59,6 +59,7 @@
     font-weight: 500;
 }
 .block-heading{
+    font-family: "TT Norms";
     color: #2655CB;
     font-size: 33px;
     font-weight: 700;
@@ -105,6 +106,7 @@
     background-size: 100% 100%;
 }
 .feature-section .block-heading{
+    font-family: "TT Norms";
     color: #dd88ff;
     font-size: 34px;
     font-weight: 700;
@@ -137,6 +139,7 @@
     }
 }
 .why-guru .block-heading{
+    font-family: "TT Norms";
     color: #930f61;
     font-size: 36px;
 }
@@ -189,6 +192,7 @@ background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1)
 
 }
 .our-experts .block-heading{
+    font-family: "TT Norms";
     font-size: 36px;
     color: black;
 }
