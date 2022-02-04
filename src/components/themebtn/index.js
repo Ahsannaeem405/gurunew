@@ -10,7 +10,7 @@ const ThemeBtn = (props) => {
         border: "none",
         fontSize: "15px",
         fontWeight: "700",
-        fontFamily: "TT Norms",
+        fontFamily: "'TT Norms', sans-serif",
     }
   return (
       <>

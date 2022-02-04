@@ -1,21 +1,26 @@
 import Homepage from './pages/homepage';
+import Aboutus from './pages/About';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './fonts/TT-Norms-Fonts/TTNorms-Black.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-Bold.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-ExtraBold.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-ExtraLight.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-Heavy.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-Light.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-Regular.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-Medium.otf';
-import './fonts/TT-Norms-Fonts/TTNorms-Thin.otf';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import Topbar from './components/topbar';
+import MainMenu from './components/mainmenu';
+import Footer from './components/footer';
 
 
 function App() {
   return (
     <>
-      <Homepage/>
+    <Topbar/>
+    <MainMenu/>
+     <Routes>
+        <Route path="/" element={<Homepage />}/>
+        <Route path="/aboutus" element={<Aboutus />}/>
+     </Routes>
+      <Footer/>
     </>
   );
 }

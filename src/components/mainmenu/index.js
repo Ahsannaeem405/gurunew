@@ -1,30 +1,41 @@
 import React from "react";
 import "./mainmenu.css";
-import { Navbar, Container, Nav,  } from "react-bootstrap";
-import Logo from "../../img/mainlogo.jpg"
+import { Navbar, Container, Nav } from "react-bootstrap";
+import Logo from "../../img/mainlogo.jpg";
+import { Outlet, Link } from "react-router-dom";
 
 const MainMenu = () => {
   return (
     <>
       <div className="mainmenu">
-        <Navbar expand="lg" className="py-1 px-1 px-md-4">
+        <Navbar expand="lg" className="py-1 px-1 px-md-3">
           <Container fluid>
             <Navbar.Brand href="#home">
-                <img src={Logo} alt="main-logo"/>
+              <img src={Logo} alt="main-logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Link to="/" className="nav-link">Home</Link>
                 <Nav.Link href="#link">Our Psychics</Nav.Link>
                 <Nav.Link href="#home">Blogs</Nav.Link>
-                <Nav.Link href="#link">About us</Nav.Link>
+                <Link to="/" className="nav-link">About Us</Link>
                 <Nav.Link href="#home">How it works</Nav.Link>
-                <Nav.Link href="#link">Contact us</Nav.Link>
+                <Link to="/contact" className="nav-link">Contact us</Link>
               </Nav>
               <Nav className="ml-auto nav-logins">
-                <Nav.Link href="#home " className="mx-1 rejister-link my-1 my-lg-0">Register </Nav.Link>
-                <Nav.Link href="#link " className="mx-1 login-link my-1  my-lg-0">Login</Nav.Link>
+                <Link
+                  to="/"
+                  className="mx-1 rejister-link my-1 my-lg-0 nav-link"
+                >
+                  Register{" "}
+                </Link>
+                <Link
+                  to="/"
+                  className="mx-1 login-link my-1  my-lg-0 nav-link"
+                >
+                  Login
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

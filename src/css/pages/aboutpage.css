@@ -1,0 +1,137 @@
+.pageCrumb{
+    background: rgb(165,0,60);
+    background: linear-gradient(0deg, rgba(165,0,60,1) 20%, rgba(255,0,70,1) 60%, rgba(255,97,105,1) 100%);
+}
+.breadcrumb{
+    margin: 0.5rem 0px;
+}
+.about-heading{
+    color: blue;
+    font-size: 38px;
+    font-family: "TT Norms";
+    font-weight: 700;
+}
+.breadcrumb li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "TT Norms";
+    font-weight: 700;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: white !important;
+}
+.about-head{
+    padding: 8px;
+    border-radius: 15px;
+    background: rgb(254,0,86);
+    background: linear-gradient(157deg, rgba(254,0,86,1) 0%, rgba(79,25,100,1) 46%, rgba(35,96,251,1) 100%);
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 100px 10px 20px 10px;
+}
+.about-head img{
+    width: 100%;
+    height: auto;
+    border-radius: 50px 15px 25px 15px;
+}
+.about-header h4{
+    font-size: 18px;
+    color: #9d9d9d;
+    font-weight: 700;
+    font-family: "TT Norms";
+}
+.about-header h2{
+    font-size: 52px;
+    font-family: 'Trocchi', serif;
+    padding: 25px 15px;
+}
+.about-header p{
+    color: grey;
+    font-size: 16px;
+    font-family: "TT Norms";
+    font-weight: 600;
+    padding: 15px 25px;
+}
+.our-mission{
+    background: rgb(254,237,227);
+background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1) 100%);
+}
+
+.our-mission h3{
+    font-size: 34px;
+    font-family: "TT Norms";
+    padding-bottom: 15px;
+}
+.mission-pic img{
+    width: 100%;
+    height: auto;
+}
+.our-mission p{
+    font-size: 16px;
+    font-family: 'Trocchi', serif;
+}
+.popular-ques .about-heading{
+    font-family: "TT Norms";
+    color: #930f61;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+.popular-ques .accordion-item {
+    border-width: 1px 0px 1px 0px;
+    border-color: #930f61;
+    border-radius: 0px !important;
+    transition: 0.3s;
+}
+.popular-ques .accordion-item button{
+    font-size: 24px;
+    font-family: 'Trocchi', serif;
+    padding: 25px 45px;
+}
+.popular-ques .accordion-item button:focus{
+    box-shadow: none;
+    background-color: #930f61;
+    color: white;
+}
+.accordion-button::after{
+    color: white;
+}
+.accordion-button:not(.collapsed)::after{
+    color: white !important;
+}
+/* counter */
+.about-counter{
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/aboutus2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.our-counter h3{
+    font-size: 90px;
+}
+.our-counter h3 span{
+    font-size: 65px;
+    color: grey;
+}
+
+
+.our-servies .about-heading{
+    font-family: "TT Norms";
+    color: #dd88ff;
+}
+.about-servies-card{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    height: 110px;
+    border-radius: 25px;
+}
+.about-servies-card i{
+    font-size: 42px;
+}
+.about-servies-card p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Trocchi', serif;
+}

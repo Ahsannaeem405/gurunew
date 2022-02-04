@@ -6,9 +6,9 @@ import tiktok from "../../img/tiktok.png";
 import fb from "../../img/fb.png";
 import instagram from "../../img/instagram.png";
 import twitter from "../../img/twitter.png";
-import mastercard from "../../img/mastercard.png";
-import Paypal from "../../img/Paypal.png";
-import visa from "../../img/visa.png";
+import mastercard from "../../img/Layer a.png";
+import Paypal from "../../img/Layer b.png";
+import visa from "../../img/Layer c.png";
 
 const Footer = () => {
   return (
@@ -80,7 +80,7 @@ const Footer = () => {
                 <img src={quality} alt="quality-img" />
               </div>
             </Col>
-            <Col sm={3} xm={6} className="pt-2">
+            <Col sm={3} xm={6} className="pt-2 px-5 px-md-0">
               <div className="footer-social-link pt-3">
                 <a href="#">
                   <img src={tiktok} alt="tiktok-img" />

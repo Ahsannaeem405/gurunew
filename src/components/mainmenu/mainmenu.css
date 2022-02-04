@@ -1,17 +1,16 @@
 
 .navbar-light .navbar-brand {
     color: rgba(0,0,0,.9);
-    width: 150px;
-    height: 55px;
+    width: 180px;
+    height: 65px;
 }
 .navbar-light .navbar-brand img{
     width: 100%;
     height: 100%;
 }
 .navbar-light .navbar-nav .nav-link {
-    font-family: "TT Norms";
-    
-    font-size: 17px;
+    font-family: 'TT Norms', sans-serif;
+    font-size: 16px;
     font-weight: 600;
     margin: 0px 10px;
 }
@@ -29,8 +28,8 @@
     }
 }
 .nav-logins .nav-link{
-    width: 110px;
-    height: 45px;
+    width: 100px;
+    height: 40px;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -40,8 +39,22 @@
 .rejister-link{
     background-color: #FF003B;
     color: white !important;
+    border: 5px solid #FF003B;
+    transition: 0.4s;
+}
+.rejister-link:hover{
+    background-color: White;
+    border: 2px solid #FF003B;
+    color: #FF003B !important;
 }
 .login-link{
     background-color:#FFE9EE;
     color: #FF003B !important;
+    border: 2px solid #FFE9EE;
+    transition: 0.3s;
+}
+.login-link:hover{
+    background-color:white;
+    color: #FF003B!important;
+    border: 2px solid #FF003B;
 }

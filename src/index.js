@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import './fonts/TT Norms sv/TTNorms-Black.otf';
+import './fonts/TT Norms sv/TTNorms-Bold.otf';
+import './fonts/TT Norms sv/TTNorms-Light.otf';
+import './fonts/TT Norms sv/TTNorms-Regular.otf';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <App />
+  </BrowserRouter> 
+  ,
   document.getElementById('root')
 );
 
