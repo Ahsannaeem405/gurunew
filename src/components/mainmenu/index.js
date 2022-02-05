@@ -19,7 +19,7 @@ const MainMenu = () => {
                 <Link to="/" className="nav-link">Home</Link>
                 <Nav.Link href="#link">Our Psychics</Nav.Link>
                 <Nav.Link href="#home">Blogs</Nav.Link>
-                <Link to="/" className="nav-link">About Us</Link>
+                <Link to="" className="nav-link">About Us</Link>
                 <Nav.Link href="#home">How it works</Nav.Link>
                 <Link to="/contact" className="nav-link">Contact us</Link>
               </Nav>

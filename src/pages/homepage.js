@@ -62,7 +62,7 @@ const Homepage = () => {
             <Col xm={4} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-3">
                 <div className="services-card-img mx-auto">
-                  <img src={LoveImg} alt="love-logo" />
+                  <img src={LoveImg} alt="love-logo" className="px-1" />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">
@@ -75,7 +75,7 @@ const Homepage = () => {
             <Col xm={4} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-3">
                 <div className="services-card-img mx-auto">
-                  <img src={Tarot} alt="love-logo" />
+                  <img src={Tarot} alt="love-logo" className="px-1" />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">Tarot</h5>
@@ -85,7 +85,7 @@ const Homepage = () => {
             <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-3">
                 <div className="services-card-img mx-auto">
-                  <img src={twinflame} alt="love-logo" />
+                  <img src={twinflame} alt="love-logo" className="px-1"  />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">Twin Flames</h5>
@@ -93,9 +93,9 @@ const Homepage = () => {
               </div>
             </Col>
             <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
+              <div className="services-card p-2 mx-0 mx-lg-3">
                 <div className="services-card-img mx-auto">
-                  <img src={career} alt="love-logo" />
+                  <img src={career} alt="love-logo" className="px-1"  />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">
@@ -106,9 +106,9 @@ const Homepage = () => {
               </div>
             </Col>
             <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
+              <div className="services-card p-2 mx-0 mx-lg-3">
                 <div className="services-card-img mx-auto">
-                  <img src={astrology} alt="love-logo"  />
+                  <img src={astrology} alt="love-logo" className="px-1"  />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">Astrology</h5>
@@ -116,7 +116,7 @@ const Homepage = () => {
               </div>
             </Col>
             <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
+              <div className="services-card p-2 mx-0 mx-lg-3">
                 <div className="services-card-img mx-auto">
                   <img src={dream} alt="love-logo" />
                 </div>
@@ -126,9 +126,9 @@ const Homepage = () => {
               </div>
             </Col>
             <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
+              <div className="services-card p-2 mx-0 mx-lg-3">
                 <div className="services-card-img mx-auto">
-                  <img src={numerology} alt="love-logo" className="px-3"  />
+                  <img src={numerology} alt="love-logo" className="px-2"  />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">Numerology</h5>
@@ -136,11 +136,11 @@ const Homepage = () => {
               </div>
             </Col>
             <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
-                <div className="services-card-img mx-auto">
+              <div className="services-card p-2 mx-0 mx-lg-3">
+                <div className="services-card-img mx-auto mt-2">
                   <img src={mediumship} alt="love-logo" />
                 </div>
-                <div className="services-card-txt mt-3">
+                <div className="services-card-txt mx-0 mx-lg-3">
                   <h5 className="text-center">Mediumship</h5>
                 </div>
               </div>

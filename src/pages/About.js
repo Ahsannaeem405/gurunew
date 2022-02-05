@@ -5,10 +5,24 @@ import headpic from "../img/aboutmain.jpg";
 import ourmisson from "../img/our-mission.png";
 
 const Aboutus = () => {
-  const [customers, setcustomers] = useState(300);
+  const [customers, setcustomers] = useState(0);
   const [experts, setExperts] = useState(35);
   const [experiance, setExperiance] = useState(10);
 
+  useEffect(() => {
+    var a = 0;
+      const timer1 = setInterval(() => {
+        if(a < 300){
+          a++;
+          setcustomers(a);
+        }
+        else{
+          console.log("I cancelled the :")
+          clearInterval(timer1);
+        }
+      }, 5);
+    
+  }, []);
   return (
     <>
       <div className="pageCrumb">
@@ -46,8 +60,16 @@ const Aboutus = () => {
             <Col md={6} className="d-flex align-items-center">
               <div className="mx-5">
                 <h4>About Us</h4>
-                <h2> We are here <br/>just for you</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis beatae aliquam omnis labore commodi eius dignissimos ratione officiis officia qua</p>
+                <h2>
+                  {" "}
+                  We are here <br />
+                  just for you
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nobis beatae aliquam omnis labore commodi eius dignissimos
+                  ratione officiis officia qua
+                </p>
               </div>
             </Col>
             <Col md={6}>
