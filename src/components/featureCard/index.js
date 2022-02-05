@@ -5,7 +5,7 @@ import userpic from "../../img/idpic2.jpg";
 const FeatureCard = () => {
   return (
     <>
-      <div className="featureCard mt-4">
+      <div className="featureCard mt-4 mx-5 mx-md-2 mx-xl-5">
         <div className="featureCard-img">
           <img src={userpic} alt="user-pic" />
           <div className="top-details d-flex justify-content-between align-items-start">

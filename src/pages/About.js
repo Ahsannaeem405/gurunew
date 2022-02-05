@@ -5,24 +5,40 @@ import headpic from "../img/aboutmain.jpg";
 import ourmisson from "../img/our-mission.png";
 
 const Aboutus = () => {
-  const [customers, setcustomers] = useState(0);
+  const [customers, setcustomers] = useState(320);
   const [experts, setExperts] = useState(35);
   const [experiance, setExperiance] = useState(10);
 
-  useEffect(() => {
-    var a = 0;
-      const timer1 = setInterval(() => {
-        if(a < 300){
-          a++;
-          setcustomers(a);
-        }
-        else{
-          console.log("I cancelled the :")
-          clearInterval(timer1);
-        }
-      }, 5);
+  const [num, setnum]= useState(0);
+  useEffect(()=>{
+    if(num===5){ 
+  
+      const interval1 = setInterval(() => {
+        setExperts(experts+1)
+           }, 100);
+           return ()=>{
+              clearInterval(interval1);
+          }
+     }
+   })
+  useEffect(()=>{
+    if(num===10){ 
+
+     const interval = setInterval(() => {
+         setnum(num+1)
+          }, 100);
+          return ()=>{
+             clearInterval(interval);
+         }
+    }
+
     
-  }, []);
+ })
+
+ 
+
+
+
   return (
     <>
       <div className="pageCrumb">
@@ -238,7 +254,7 @@ const Aboutus = () => {
                   </div>
                 </Col>
                 <Col sm={12} md={6}>
-                  <div className="about-servies-card d-flex align-items-center  p-2 my-3 mx-2 text-warning">
+                  <div className="about-servies-card d-flex align-items-center text-center  p-2 my-3 mx-2 text-warning">
                     <i class="fas fa-rocket mx-3"></i>
                     <p className="m-0">Always ready to answer</p>
                   </div>

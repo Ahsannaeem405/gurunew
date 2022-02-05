@@ -256,11 +256,11 @@ const Homepage = () => {
         <Container fluid="md">
           <Row className="d-flex align-items-center">
             <Col md={6} className="mt-5">
-              <div className="px-5 my-5">
+              <div className="pb-5">
                 <h2 className="block-heading">
                   Our experts are<br />  available 24/7
                 </h2>
-                <p className="py-3">
+                <p className="py-3 mb-0">
                   Enjoy psychic reading on your mobile. Our Psychic Readers are
                   compassionate and will amaze you with a personal live reading
                   unlike any you’ve had before
@@ -271,7 +271,7 @@ const Homepage = () => {
               </div>
             </Col>
             <Col md={6} className="d-none d-md-block">
-              <div className="our-expet-img px-5">
+              <div className="our-expet-img px-2 px-md-3 px-xl-5 pt-4 pt-xl-0">
                   <img src={guru2} alt="our-expert-img"/>
               </div>
             </Col>
