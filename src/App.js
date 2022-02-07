@@ -18,7 +18,7 @@ function App() {
     <MainMenu/>
      <Routes>
         <Route path="/" element={<Homepage />}/>
-        
+        {/* <Route path="/aboutus" element={<Aboutus />}/> */}
      </Routes>
       <Footer/>
     </>

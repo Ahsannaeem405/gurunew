@@ -4,14 +4,14 @@ import MainMenu from "../components/mainmenu";
 import { Container, Row, Col } from "react-bootstrap";
 import "../css/pages/homepage.css";
 import Image from "../img/couple.png";
-import LoveImg from "../img/Layer 3.png";
-import Tarot from "../img/Layer 5.png";
-import twinflame from "../img/Layer 2.png";
-import career from "../img/Layer 4.png";
-import astrology from "../img/Layer 7.png";
-import dream from "../img/Layer 20.png";
-import mediumship from "../img/Layer 6.png";
-import numerology from "../img/Layer 1.png";
+import LoveImg from "../img/love.png";
+import Tarot from "../img/tarot.png";
+import twinflame from "../img/twinflame.png";
+import career from "../img/career.png";
+import astrology from "../img/astrology.png";
+import dream from "../img/dream.png";
+import mediumship from "../img/mediumship.png";
+import numerology from "../img/numerology.png";
 import ThemeBtn from "../components/themebtn";
 import User1 from "../img/user1.jpg";
 import bestPic from "../img/best-psychics.png";
@@ -28,13 +28,13 @@ const Homepage = () => {
         <Container>
           <Row>
             <Col md={6} className="mt-3 mt-sm-5 px-4">
-              <div className="header-content pt-5">
+              <div className="header-content pt-4">
                 <h1>
                   Welcome to <br />
                   Guru Psychics
                 </h1>
               </div>
-              <div className="header-links mt-0 py-3 py-md-5">
+              <div className="header-links mt-0 py-3 py-lg-5">
                 <a href="#" className="register-link">
                   Register Now
                 </a>
@@ -44,7 +44,7 @@ const Homepage = () => {
               </div>
             </Col>
             <Col md={6} className="d-none d-md-block">
-              <div className="header-img ">
+              <div className="header-img mx-auto d-flex align-items-end">
                 <img src={Image} alt="header-img" />
               </div>
             </Col>
@@ -52,16 +52,16 @@ const Homepage = () => {
         </Container>
       </div>
       <div className="sevices-section">
-        <Container className="px-5 py-4">
+        <Container className="px-md-5 px-0 py-4">
           <Row>
             <Col>
               <h2 className="text-center block-heading">Our Services</h2>
             </Col>
           </Row>
           <Row className="mx-4 mx-sm-5">
-            <Col xm={4} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
-                <div className="services-card-img mx-auto">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+              <div className="services-card p-2 mx-0 mx-lg-3">
+                <div className="services-card-img px-3">
                   <img src={LoveImg} alt="love-logo" className="px-1" />
                 </div>
                 <div className="services-card-txt mt-3">
@@ -72,9 +72,9 @@ const Homepage = () => {
                 </div>
               </div>
             </Col>
-            <Col xm={4} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
-                <div className="services-card-img mx-auto">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+              <div className="services-card p-2 mx-0 mx-lg-3">
+                <div className="services-card-img px-3">
                   <img src={Tarot} alt="love-logo" className="px-1" />
                 </div>
                 <div className="services-card-txt mt-3">
@@ -82,9 +82,9 @@ const Homepage = () => {
                 </div>
               </div>
             </Col>
-            <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
-              <div className="services-card p-2 mx-3">
-                <div className="services-card-img mx-auto">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+              <div className="services-card p-2 mx-0 mx-lg-3">
+                <div className="services-card-img px-3">
                   <img src={twinflame} alt="love-logo" className="px-1"  />
                 </div>
                 <div className="services-card-txt mt-3">
@@ -92,9 +92,9 @@ const Homepage = () => {
                 </div>
               </div>
             </Col>
-            <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-0 mx-lg-3">
-                <div className="services-card-img mx-auto">
+                <div className="services-card-img px-3">
                   <img src={career} alt="love-logo" className="px-1"  />
                 </div>
                 <div className="services-card-txt mt-3">
@@ -105,9 +105,9 @@ const Homepage = () => {
                 </div>
               </div>
             </Col>
-            <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-0 mx-lg-3">
-                <div className="services-card-img mx-auto">
+                <div className="services-card-img px-3">
                   <img src={astrology} alt="love-logo" className="px-1"  />
                 </div>
                 <div className="services-card-txt mt-3">
@@ -115,9 +115,9 @@ const Homepage = () => {
                 </div>
               </div>
             </Col>
-            <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-0 mx-lg-3">
-                <div className="services-card-img mx-auto">
+                <div className="services-card-img px-3">
                   <img src={dream} alt="love-logo" />
                 </div>
                 <div className="services-card-txt mt-3">
@@ -125,31 +125,33 @@ const Homepage = () => {
                 </div>
               </div>
             </Col>
-            <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-0 mx-lg-3">
-                <div className="services-card-img mx-auto">
-                  <img src={numerology} alt="love-logo" className="px-2"  />
+                <div className="services-card-img px-3">
+                  <img src={numerology} alt="love-logo" />
                 </div>
                 <div className="services-card-txt mt-3">
                   <h5 className="text-center">Numerology</h5>
                 </div>
               </div>
             </Col>
-            <Col xm={6} sm={6} md={4} lg={3} className="mt-3 p-0">
+            <Col xs={6} sm={6} md={4} lg={3} className="mt-3 p-0">
               <div className="services-card p-2 mx-0 mx-lg-3">
-                <div className="services-card-img mx-auto mt-2">
+                <div className="services-card-img px-3">
                   <img src={mediumship} alt="love-logo" />
                 </div>
-                <div className="services-card-txt mx-0 mx-lg-3">
+                <div className="services-card-txt mt-3">
                   <h5 className="text-center">Mediumship</h5>
                 </div>
               </div>
             </Col>
+            
+          
           </Row>
           <Row>
             <Col>
               <div class="text-center mt-4">
-                <ThemeBtn color="white" text="Try it Now" bg="red" />
+                <ThemeBtn color="white" text="Try it Now" bg="#f10a3b" />
               </div>
             </Col>
           </Row>
@@ -257,7 +259,7 @@ const Homepage = () => {
           <Row className="d-flex align-items-center">
             <Col md={6} className="mt-5">
               <div className="pb-5">
-                <h2 className="block-heading">
+                <h2 className="block-heading mb-0">
                   Our experts are<br />  available 24/7
                 </h2>
                 <p className="py-3 mb-0">
@@ -265,7 +267,7 @@ const Homepage = () => {
                   compassionate and will amaze you with a personal live reading
                   unlike any you’ve had before
                 </p>
-                <div className="text-center ">
+                <div className="text-center mt-3">
                   <ThemeBtn color="black" text="Chat Now" bg="#4ACDEF" />
                 </div>
               </div>

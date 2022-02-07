@@ -6,14 +6,14 @@ import tiktok from "../../img/tiktok.png";
 import fb from "../../img/fb.png";
 import instagram from "../../img/instagram.png";
 import twitter from "../../img/twitter.png";
-import mastercard from "../../img/Layer a.png";
-import Paypal from "../../img/Layer b.png";
-import visa from "../../img/Layer c.png";
+import mastercard from "../../img/Layer 2.png";
+import Paypal from "../../img/Layer 1.png";
+import visa from "../../img/Layer 3.png";
 
 const Footer = () => {
   return (
     <>
-      <div className="footer py-4">
+      <div className="footer pb-4">
         <Container>
           <Row>
             <Col sm={3} xm={6} className="pt-3">
@@ -96,13 +96,13 @@ const Footer = () => {
                 </a>
               </div>
               <div className="our-payment">
-                <div className="payement-img py-1 text-end">
+                <div className="payement-img py-1 text-center text-md-end">
                   <img src={mastercard} alt="payment" />
                 </div>
-                <div className="payement-img py-1 text-end">
+                <div className="payement-img py-1 text-center text-md-end pr-3">
                   <img src={Paypal} alt="payment" />
                 </div>
-                <div className="payement-img py-1 text-end">
+                <div className="payement-img py-1 text-center text-md-end pr-5">
                   <img src={visa} alt="payment" />
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Footer = () => {
           </Row>
           <Row>
             <Col sm={12} xm={6}>
-              <div className="site-rights text-center pt-3">
+              <div className="site-rights text-center">
                 <p>© 2022 All Rights Reserved</p>
                 <p>Guru-Psychics.com is operated by TwinSwan SL</p>
                 <p>

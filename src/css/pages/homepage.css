@@ -6,7 +6,7 @@
 }
 .header-content h1{
     color: #fff;
-    font-size: 62px;
+    font-size: 65px;
     font-weight: 400;
     font-family: 'TT Norms', sans-serif;
 }
@@ -22,11 +22,12 @@
 }
 .header-img{
     height: 100%;
-    width: 100%;
+    width: 75%;
 }
 .header-img img{
-    height: 100%;
-    width: 85%;
+    height: auto;
+    width: 100%;
+    vertical-align: bottom;
 }
 .header-links{
     display: flex;
@@ -79,7 +80,17 @@
     
 }
 .sevices-section{
-    padding: 0px 20px;
+    padding: 0px 100px;
+}
+@media screen and (max-width:1024px){
+    .sevices-section{
+        padding: 0px 45px;
+    }
+}
+@media screen and (max-width:425px){
+    .sevices-section{
+        padding: 0px 0px;
+    }
 }
 .sevices-section .theme-btn{
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
@@ -95,25 +106,28 @@
     font-size: 33px;
     font-weight: 700;
 }
-.services-card-img{
-    width: 140px;
-    height:140px;
-}
 .services-card-img img{
     width: 100%;
     height: auto;
 }
+.services-card-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
 .services-card-txt h5{
     font-size: 15px;
     font-weight: 700;
+    margin-bottom: 0px;
     color: #E31153;
 }
 .services-card{
     border-radius: 12px;
 }
-.services-card:hover{
+/* .services-card:hover{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-}
+} */
 .btn-theme{
     background-color: #F10A3B;
     color: #fff;
@@ -203,7 +217,7 @@
 .guru-card-detials h3{
     font-size: 17px;
     font-weight: 700;
-    font-family: 'Trocchi', serif;
+    font-family: 'TT Norms', sans-serif;
 }
 @media screen and (max-width:1024px){
     .guru-card-detials h3{
