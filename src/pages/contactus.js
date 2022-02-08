@@ -52,7 +52,7 @@ const Contact = () => {
       <div className="contactus my-5 mx-5">
         <Container>
           <Row className="d-flex align-items-center justify-content-center">
-            <Col md={6} lg={5} xl={6}>
+            <Col sm={10} md={6} lg={5} xl={4} >
               <div className="contact-us-div1 py-5 px-3">
                 <h3>Meet us</h3>
                 <div className="mail-us mt-4">
@@ -63,7 +63,7 @@ const Contact = () => {
               </div>
               
             </Col>
-            <Col md={6} lg={5} xl={6}>
+            <Col sm={10} md={6} lg={5} xl={4}>
               <div className="contact-us-div2 py-5 px-3">
                 <h3>Follow Us</h3>
                 <div className="contact-social-icons mt-3">
