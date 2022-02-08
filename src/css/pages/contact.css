@@ -1,0 +1,96 @@
+.contactus h4{
+    font-size: 18px;
+    color: #9d9d9d;
+    font-weight: 700;
+    font-family: "TT Norms";
+}
+.contact-div h2{
+    font-family: 'TT Norms', sans-serif;
+    color: #dd88ff;
+    font-size: 33px;
+    font-weight: 700;
+
+}
+.contact-page-title{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+.contactimg img{
+    width: 100%;
+    height: auto;
+}
+.contact-div{
+    background-image: url(../../img/gradient2.png);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.contactus .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    color: rgb(255, 255, 255) !important;
+}
+.contact-textarea textarea{
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #f10a3b;
+    color: white;
+}
+.contact-textarea textarea:focus, .contact-textarea textarea:active{
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #f10a3b;
+}
+.contact-btn button{
+    background-color: #f10a3b;
+    width: 50%;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.contact-form label{
+    color: white;
+}
+.contact-form input{
+    color: White;
+}
+.contact-us-div1{
+    text-align: center;
+    background: rgb(36,136,225);
+background: linear-gradient(202deg, rgba(36,136,225,1) 0%, rgba(212,25,93,1) 100%);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+.contact-us-div2{
+    
+    text-align: center;
+    background: rgb(212,25,93);
+background: linear-gradient(340deg, rgba(212,25,93,1) 0%, rgba(36,136,225,1) 100%);
+border-radius: 5px;
+}
+.contact-us-div1 h3, .contact-us-div2 h3{
+    font-size: 32px;
+    color: white;
+}
+.contact-us-div1, .contact-us-div2{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.mail-us svg{
+    font-size: 28px;
+    color: blue;
+}
+.mail-us a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.contact-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-social-icons svg{
+    font-size: 36px;
+    color: #B41655;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+}

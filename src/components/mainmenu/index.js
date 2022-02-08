@@ -8,7 +8,7 @@ const MainMenu = () => {
   return (
     <>
       <div className="mainmenu">
-        <Navbar expand="lg" className="py-1 px-1 px-md-3">
+        <Navbar expand="lg" className="py-1 px-1 px-md-3" sticky="top" >
           <Container fluid>
             <Navbar.Brand href="#home">
               <img src={Logo} alt="main-logo" />
@@ -21,7 +21,7 @@ const MainMenu = () => {
                 <Nav.Link href="#home">Blogs</Nav.Link>
                 <Link to="/" className="nav-link">About Us</Link>
                 <Nav.Link href="#home">How it works</Nav.Link>
-                <Link to="/contact" className="nav-link">Contact us</Link>
+                <Link to="/contactus" className="nav-link">Contact us</Link>
               </Nav>
               <Nav className="ml-auto nav-logins">
                 <Link

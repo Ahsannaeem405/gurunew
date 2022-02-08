@@ -42,7 +42,7 @@ const Aboutus = () => {
   return (
     <>
       <div className="pageCrumb">
-        <Container>
+        <Container fluid>
           <Row>
             <Col>
               <Breadcrumb>
@@ -55,29 +55,12 @@ const Aboutus = () => {
       </div>
 
       <div className="about-header py-5">
-        {/* <Container className="py-4">
-          <Row class="d-flex justify-content-center">
-            <Col md={6}>
-              <h2 className="text-center about-heading">
-                We are a group of qualified experts from all over the world
-              </h2>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="px-5">
-              <div className="about-head mx-5">
-                <img src={headpic} alt="about-header" />
-              </div>
-            </Col>
-          </Row>
-        </Container> */}
         <Container>
-          <Row>
+          <Row className="d-flex align-items-center">
             <Col md={6} className="d-flex align-items-center">
-              <div className="mx-5">
+              <div className="mx-lg-5 mx-md-0 mx-2">
                 <h4>About Us</h4>
                 <h2>
-                  {" "}
                   We are here <br />
                   just for you
                 </h2>
@@ -100,7 +83,7 @@ const Aboutus = () => {
         <Container>
           <Row className="d-flex justify-content-center align-items-center  flex-row-reverse">
             <Col md={12} lg={6}>
-              <div className="mx-5">
+              <div className="mx-lg-0 mx-md-5 mx-0">
                 <h3>My mission is to give you a guideline.</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

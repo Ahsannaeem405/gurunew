@@ -44,9 +44,9 @@
     font-family: "TT Norms";
 }
 .about-header h2{
-    font-size: 52px;
+    font-size: 62px;
     font-family: 'Trocchi', serif;
-    padding: 25px 15px;
+    padding: 20px 15px;
 }
 .about-header p{
     color: grey;
@@ -55,13 +55,23 @@
     font-weight: 600;
     padding: 15px 25px;
 }
+@media screen and (max-width:990px){
+    .about-header h2{
+        font-size: 28px;
+        padding: 0px;
+    }
+    .about-header p{
+        font-size: 16px;
+        padding: 0px 0px;
+    }
+}
 .our-mission{
     background: rgb(254,237,227);
 background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1) 100%);
 }
 
 .our-mission h3{
-    font-size: 34px;
+    font-size: 42px;
     font-family: "TT Norms";
     padding-bottom: 15px;
 }
@@ -72,6 +82,11 @@ background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1)
 .our-mission p{
     font-size: 16px;
     font-family: 'Trocchi', serif;
+}
+@media screen and (max-width:425px){
+    .our-mission h3{
+        font-size: 32px;
+    }
 }
 .popular-ques .about-heading{
     font-family: "TT Norms";
