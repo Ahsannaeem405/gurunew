@@ -42,8 +42,8 @@ const Contact = () => {
           <Row>
             <Col>
               <Breadcrumb>
-                <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-                <Breadcrumb.Item href="/aboutus">Contact Us</Breadcrumb.Item>
+                <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+                <Breadcrumb.Item href="/contactus">Contact Us</Breadcrumb.Item>
               </Breadcrumb>
             </Col>
           </Row>

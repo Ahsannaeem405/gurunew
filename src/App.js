@@ -10,6 +10,7 @@ import {
 import Topbar from './components/topbar';
 import MainMenu from './components/mainmenu';
 import Footer from './components/footer';
+import Blogs from './pages/Blogs'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <Routes>
         <Route path="/" element={<Homepage />}/>
         {/* <Route path="/aboutus" element={<Aboutus />}/> */}
+        <Route path="/blogs" element={<Blogs />}/>
         <Route path="/contactus" element={<Contact />}/>
      </Routes>
       <Footer/>
