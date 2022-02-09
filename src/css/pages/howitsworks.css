@@ -1,0 +1,52 @@
+.works-header{
+    /* background-image: url("../../img/howitwork.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: yellow;
+    background-image: linear-gradient(90deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1) 100%);
+}
+.works-header .ourwork .theme-btn{
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+.howitswork{
+    background-color: #ff0000;
+    color: white;
+}
+.ourwork{
+    position: relative;
+}
+.ourwork::after{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1) 100%);
+    content: "";
+    z-index: -1;
+}
+.ourwork h3{
+    font-size: 52px;
+    font-family: 'Trocchi', serif;
+}
+.our-work-img{
+    width: 100%;
+    height: 100%;
+}
+.our-work-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.working-steps .h4{
+    font-size: 36px;
+}
+.working-steps-item h4{
+    font-size: 32px;
+    font-family: 'TT Norms', sans-serif;
+    font-weight: 700;
+}
+.steps-bg{
+    background-color: #EDECE2;
+}

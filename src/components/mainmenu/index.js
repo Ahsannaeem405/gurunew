@@ -18,7 +18,7 @@ const MainMenu = () => {
               <Nav className="mx-auto">
                 <Link to="/" className="nav-link">Home</Link>
                 <Nav.Link href="#link">Our Psychics</Nav.Link>
-                <Nav.Link href="#home">Blogs</Nav.Link>
+                <Link to="/blogs" className="nav-link">Blogs</Link>
                 <Link to="/" className="nav-link">About Us</Link>
                 <Nav.Link href="#home">How it works</Nav.Link>
                 <Link to="/contactus" className="nav-link">Contact us</Link>

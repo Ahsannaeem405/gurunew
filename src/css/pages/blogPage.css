@@ -1,0 +1,54 @@
+.blog{
+    background-color: red;
+}
+.our-blog h2{
+    font-size: 32px;
+    font-family: 'TT Norms', sans-serif;
+    font-weight: 700;
+    color: #494a4b;
+}
+.blog-single-img img{
+    width:100%;
+    height: auto;
+    border-radius: 8px;
+}
+.single-blog {
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #4075CB;
+}
+.single-blog h3{
+    font-size: 32px;
+    color: #B41655;
+}
+.single-blog-info{
+    color: #4075CB;
+}
+.blog-dicription{
+    font-size: 18px;
+}
+.more-blogs h4{
+    font-size: 26px;
+    color: #B41655;
+    font-weight: 600;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-family: 'Abril Fatface', cursive;
+}
+.most-popular h5{
+    border-radius: 5px;
+    background-color: #B41655;
+    padding: 10px 15px;
+    color: white;
+}
+.most-popular a{
+     text-decoration: none;
+     color: black;
+     
+}
+.popular-links{
+    background-color: #b8b8b8;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
