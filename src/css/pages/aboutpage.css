@@ -43,17 +43,15 @@
     font-weight: 700;
     font-family: "TT Norms";
 }
-.about-header h2{
-    font-size: 52px;
-    font-family: 'Trocchi', serif;
-    padding: 20px 15px;
+.about-header h3{
+    font-size: 42px;
+    font-family: "TT Norms";
+    padding-bottom: 15px;
 }
 .about-header p{
-    color: grey;
     font-size: 16px;
-    font-family: "TT Norms";
-    font-weight: 600;
-    padding: 15px 25px;
+    margin: 0px 0px 5px 0px;
+    font-family: 'Trocchi', serif;
 }
 @media screen and (max-width:990px){
     .about-header h2{
@@ -81,6 +79,7 @@ background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1)
 }
 .our-mission p{
     font-size: 16px;
+    margin: 0px 0px 5px 0px;
     font-family: 'Trocchi', serif;
 }
 @media screen and (max-width:425px){
@@ -148,5 +147,18 @@ background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1)
 .about-servies-card p{
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Trocchi', serif;
+}
+.vission-icons svg{
+    font-size: 75px;
+    color: #930f61;
+    border: 2px solid #930f61;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+.our-vision p{
+    font-size: 16px;
+    margin: 0px 0px 5px 0px;
     font-family: 'Trocchi', serif;
 }

@@ -3,41 +3,35 @@ import { Breadcrumb, Container, Row, Col, Accordion } from "react-bootstrap";
 import "../css/pages/aboutpage.css";
 import headpic from "../img/aboutmain.jpg";
 import ourmisson from "../img/our-mission.png";
+import SpaIcon from "@mui/icons-material/Spa";
+import GppGoodIcon from "@mui/icons-material/GppGood";
 
 const Aboutus = () => {
   const [customers, setcustomers] = useState(320);
   const [experts, setExperts] = useState(35);
   const [experiance, setExperiance] = useState(10);
 
-  const [num, setnum]= useState(0);
-  useEffect(()=>{
-    if(num===5){ 
-  
+  const [num, setnum] = useState(0);
+  useEffect(() => {
+    if (num === 5) {
       const interval1 = setInterval(() => {
-        setExperts(experts+1)
-           }, 100);
-           return ()=>{
-              clearInterval(interval1);
-          }
-     }
-   })
-  useEffect(()=>{
-    if(num===10){ 
-
-     const interval = setInterval(() => {
-         setnum(num+1)
-          }, 100);
-          return ()=>{
-             clearInterval(interval);
-         }
+        setExperts(experts + 1);
+      }, 100);
+      return () => {
+        clearInterval(interval1);
+      };
     }
-
-    
- })
-
- 
-
-
+  });
+  useEffect(() => {
+    if (num === 10) {
+      const interval = setInterval(() => {
+        setnum(num + 1);
+      }, 100);
+      return () => {
+        clearInterval(interval);
+      };
+    }
+  });
 
   return (
     <>
@@ -57,24 +51,61 @@ const Aboutus = () => {
       <div className="about-header py-5">
         <Container>
           <Row className="d-flex align-items-center">
-            <Col md={6} className="d-flex align-items-center">
-              <div className="mx-lg-5 mx-md-0 mx-2">
-                <h4>About Us</h4>
-                <h2>
-                  We are here <br />
-                  just for you
-                </h2>
+            <Col md={12} lg={6} className="d-flex align-items-center">
+              <div className="">
+                <h3>About Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nobis beatae aliquam omnis labore commodi eius dignissimos
-                  ratione officiis officia qua
+                  Guru Psychics is a leading community for online psychics. We
+                  are specialized in giving professional psychic guidance when
+                  it comes to romance, love, career, family, friends, dreams, or
+                  life. At times, it is more helpful to rely on psychics, tarot
+                  readers, mediums, fortune tellers, and astrologers to guide
+                  you through life and to keep you on the right path. Real
+                  psychics have the ability and spiritual knowledge to provide
+                  you with the answers that you are looking for.
+                  <br />
+                  <div className="d-none d-xl-block">
+                    Having a reading with our Gurus is simple and effective. We
+                    offer special and helpful readings through the help of our
+                    readers who are verified experts
+                    <br />
+                    We are more than fortune tellers or spiritual instructors.
+                    We guide you through your life journey and quest for the
+                    unveiled truth. Our mission is to help the lost souls in
+                    this world.
+                    <br />
+                    We are here to give a hand to anyone in need for help and in
+                    search for clarity. Join our community and enjoy the journey
+                    of travelling from the past to the present and onto the
+                    future in order to find yourself in the chaos. Do not
+                    hesitate to reach out to Guru Psychics when things get out
+                    of hand. We are here for you anytime.
+                  </div>
                 </p>
               </div>
             </Col>
-            <Col md={6}>
-              <div className="about-img">
+            <Col md={12} lg={6}>
+              <div className="about-img py-3">
                 <img src={headpic} alt="about" />
               </div>
+            </Col>
+            <Col md={12} lg={12} className="d-block d-xl-none">
+              <p>
+                Having a reading with our Gurus is simple and effective. We
+                offer special and helpful readings through the help of our
+                readers who are verified experts
+                <br />
+                We are more than fortune tellers or spiritual instructors. We
+                guide you through your life journey and quest for the unveiled
+                truth. Our mission is to help the lost souls in this world.
+                <br />
+                We are here to give a hand to anyone in need for help and in
+                search for clarity. Join our community and enjoy the journey of
+                travelling from the past to the present and onto the future in
+                order to find yourself in the chaos. Do not hesitate to reach
+                out to Guru Psychics when things get out of hand. We are here
+                for you anytime.
+              </p>
             </Col>
           </Row>
         </Container>
@@ -84,19 +115,39 @@ const Aboutus = () => {
           <Row className="d-flex justify-content-center align-items-center  flex-row-reverse">
             <Col md={12} lg={6}>
               <div className="mx-lg-0 mx-md-5 mx-0">
-                <h3>My mission is to give you a guideline.</h3>
+                <h3>Why Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam nulla necessitatibus vero fugiat amet? Ullam quam
-                  voluptatem adipisci, est praesentium fuga vel voluptates earum
-                  nam ab esse facere dolore provident.
+                  Sometimes you feel lost and not sure about what to do or how
+                  to feel about certain things or people. Talking to friends is
+                  just not enough and cannot seem to help at times. When your
+                  hands are tied, you need the help of clairvoyant psychics.
+                  Whether you have questions about love, career, family,
+                  friends, dreams, or life, our Guru psychics will give you a
+                  hand.
+                  <br />
+                  But there are many psychic websites out there. So WHY choose
+                  this website in particular?
+                </p>
+                <p>WHY choose Guru Psychics?</p>
+                <p>
+                  Let us tell you WHY.
+                  <br />
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam nulla necessitatibus vero fugiat amet? Ullam quam
-                  voluptatem adipisci, est praesentium fuga vel voluptates earum
-                  nam ab esse facere dolore provident.
+                  Our name "Guru" describes what we do and why we are the best
+                  site for you. Its two syllables Gu and Ru stand for the
+                  following:
                 </p>
+                <ul>
+                  <li>
+                    Gu represents the spiritual ignorance that most of humankind
+                    is in.
+                  </li>
+                  <li>
+                    Ru denotes the radiance of the spiritual knowledge that
+                    dispels the spiritual ignorance.
+                  </li>
+                </ul>
               </div>
             </Col>
             <Col md={12} lg={6}>
@@ -107,7 +158,7 @@ const Aboutus = () => {
           </Row>
         </Container>
       </div>
-      <div className="popular-ques py-5">
+      {/* <div className="popular-ques py-5">
         <Container>
           <Row className="">
             <Col>
@@ -172,6 +223,39 @@ const Aboutus = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
+            </Col>
+          </Row>
+        </Container>
+      </div> */}
+      <div className="our-vision py-5">
+        <Container>
+          <Row className="d-flex justify-content-center">
+            <Col xm={6} md={6} lg={4}>
+              <div className="vission-icons text-center">
+                <SpaIcon />
+                <h5 className="py-1">Professional Customer Care</h5>
+              </div>
+            </Col>
+            <Col xm={6} md={6} lg={4}>
+              <div className="vission-icons text-center">
+                <GppGoodIcon />
+                <h5 className="py-1">Professional Customer Secure</h5>
+              </div>
+            </Col>
+            <Col sm={12} md={10} lg={6} className="text-center py-2">
+              <p>
+                Our mission here is to dispel the darkness of the spiritual
+                ignorance that is in humanity and to bestow upon the spiritual
+                experiences and knowledge. 
+                <br/>In order to succeed this mission, we
+                offer you total honesty. We tell you the truth that you need to,
+                but not necessarily, want to hear. We help you to find yourself
+                in the right way.
+                <br/> Trust that you are in good hands with Guru
+                Psychics. 
+                <br/>We are hands down the most authentic psychic website.
+                We are the psychics of Guru, we will always be there for you.
+              </p>
             </Col>
           </Row>
         </Container>

@@ -23,7 +23,7 @@ function App() {
     <MainMenu/>
      <Routes>
         <Route path="/" element={<Homepage />}/>
-        {/* <Route path="/aboutus" element={<Aboutus />}/> */}
+        <Route path="/aboutus" element={<Aboutus />}/>
         <Route path="/blogs" element={<Blogs />}/>
         <Route path="/contactus" element={<Contact />}/>
         {/* <Route path='/HowitWorks' element={<HowitsWorks/>}/> */}
