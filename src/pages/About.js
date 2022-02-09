@@ -231,30 +231,25 @@ const Aboutus = () => {
         <Container>
           <Row className="d-flex justify-content-center">
             <Col xm={6} md={6} lg={4}>
-              <div className="vission-icons text-center">
-                <SpaIcon />
-                <h5 className="py-1">Professional Customer Care</h5>
-              </div>
+              <h2 className="text-center   about-heading">
+                Our Mission
+              </h2>
             </Col>
-            <Col xm={6} md={6} lg={4}>
-              <div className="vission-icons text-center">
-                <GppGoodIcon />
-                <h5 className="py-1">Professional Customer Secure</h5>
-              </div>
-            </Col>
+            </Row>
+            <Row className="d-flex justify-content-center">
             <Col sm={12} md={10} lg={6} className="text-center py-2">
               <p>
                 Our mission here is to dispel the darkness of the spiritual
                 ignorance that is in humanity and to bestow upon the spiritual
-                experiences and knowledge. 
-                <br/>In order to succeed this mission, we
-                offer you total honesty. We tell you the truth that you need to,
-                but not necessarily, want to hear. We help you to find yourself
-                in the right way.
-                <br/> Trust that you are in good hands with Guru
-                Psychics. 
-                <br/>We are hands down the most authentic psychic website.
-                We are the psychics of Guru, we will always be there for you.
+                experiences and knowledge.
+                <br />
+                In order to succeed this mission, we offer you total honesty. We
+                tell you the truth that you need to, but not necessarily, want
+                to hear. We help you to find yourself in the right way.
+                <br /> Trust that you are in good hands with Guru Psychics.
+                <br />
+                We are hands down the most authentic psychic website. We are the
+                psychics of Guru, we will always be there for you.
               </p>
             </Col>
           </Row>

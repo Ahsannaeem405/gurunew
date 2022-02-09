@@ -162,3 +162,7 @@ background: linear-gradient(200deg, rgba(254,237,227,1) 20%, rgba(142,232,224,1)
     margin: 0px 0px 5px 0px;
     font-family: 'Trocchi', serif;
 }
+.our-vision .about-heading{
+    font-family: "TT Norms";
+    color: #930f61;
+}
