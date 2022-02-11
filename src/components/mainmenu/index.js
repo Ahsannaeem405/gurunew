@@ -5,6 +5,7 @@ import Logo from "../../img/mainlogo.jpg";
 import { Outlet, Link } from "react-router-dom";
 
 const MainMenu = () => {
+  
   return (
     <>
       <div className="mainmenu">
@@ -17,21 +18,21 @@ const MainMenu = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
                 <Link to="/" className="nav-link">Home</Link>
-                <Nav.Link href="#link">Our Psychics</Nav.Link>
+                <Link to="/psychices" className="nav-link">Our Psychics</Link>
                 <Link to="/blogs" className="nav-link">Blogs</Link>
                 <Link to="/aboutus" className="nav-link">About Us</Link>
-                <Nav.Link href="#home">How it works</Nav.Link>
+                <Link to="/HowitWorks" className="nav-link">How it works</Link>
                 <Link to="/contactus" className="nav-link">Contact us</Link>
               </Nav>
               <Nav className="ml-auto nav-logins">
                 <Link
-                  to="/"
+                  to="/registor"
                   className="mx-1 rejister-link my-1 my-lg-0 nav-link"
                 >
-                  Register{" "}
+                  Register
                 </Link>
                 <Link
-                  to="/"
+                  to="/login"
                   className="mx-1 login-link my-1  my-lg-0 nav-link"
                 >
                   Login
